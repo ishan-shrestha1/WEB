@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Genres</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        /* Navbar Styles */
+        nav {
+            background-color: #333;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        .genre-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .genre-card {
+            background-color: #fff;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .genre-card:hover {
+            transform: scale(1.05);
+        }
+        .genre-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .genre-card h3 {
+            margin-top: 15px;
+            font-size: 1.5em;
+            color: #333;
+        }
+        .return-btn {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 20px auto;
+            display: block;
+        }
+        .return-btn:hover {
+            background-color: #ff6347;
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div>
+            <a href="./index.html">Home</a>
+            <a href="./series.html">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <button class="return-btn" onclick="window.location.href='index.html'">Return to Homepage</button>
+    </nav>
+
+    <header>
+        <h1>Explore Anime Genres</h1>
+    </header>
+
+    <div class="genre-container">
+        <!-- Action Genre -->
+        <div class="genre-card">
+            <img src="https://via.placeholder.com/250x150?text=Action" alt="Action Genre">
+            <h3>Action</h3>
+            <p>Fast-paced adventures, battles, and epic showdowns!</p>
+        </div>
+
+        <!-- Adventure Genre -->
+        <div class="genre-card">
+            <img src="https://via.placeholder.com/250x150?text=Adventure" alt="Adventure Genre">
+            <h3>Adventure</h3>
+            <p>Join characters on incredible journeys across worlds.</p>
+        </div>
+
+        <!-- Romance Genre -->
+        <div class="genre-card">
+            <img src="https://via.placeholder.com/250x150?text=Romance" alt="Romance Genre">
+            <h3>Romance</h3>
+            <p>Love stories that tug at your heartstrings.</p>
+        </div>
+
+        <!-- Fantasy Genre -->
+        <div class="genre-card">
+            <img src="https://via.placeholder.com/250x150?text=Fantasy" alt="Fantasy Genre">
+            <h3>Fantasy</h3>
+            <p>Magical worlds, mythical creatures, and untold powers.</p>
+        </div>
+
+        <!-- Slice of Life Genre -->
+        <div class="genre-card">
+            <img src="https://via.placeholder.com/250x150?text=Slice+of+Life" alt="Slice of Life Genre">
+            <h3>Slice of Life</h3>
+            <p>Everyday stories that feel heartwarming and real.</p>
+        </div>
+
+        <!-- Horror Genre -->
+        <div class="genre-card">
+            <img src="https://via.placeholder.com/250x150?text=Horror" alt="Horror Genre">
+            <h3>Horror</h3>
+            <p>Spine-chilling thrills, dark mysteries, and supernatural horrors.</p>
+        </div>
+
+        <!-- Sci-Fi Genre -->
+        <div class="genre-card">
+            <img src="https://via.placeholder.com/250x150?text=Sci-Fi" alt="Sci-Fi Genre">
+            <h3>Sci-Fi</h3>
+            <p>Futuristic technologies, space travel, and advanced civilizations.</p>
+        </div>
+
+        <!-- Comedy Genre -->
+        <div class="genre-card">
+            <img src="https://via.placeholder.com/250x150?text=Comedy" alt="Comedy Genre">
+            <h3>Comedy</h3>
+            <p>Laugh-out-loud moments, humor, and light-hearted fun.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Anime Genres - All Rights Reserved</p>
+    </footer>
+    <script src="./java.js"></script>
+</body>
+</html>
